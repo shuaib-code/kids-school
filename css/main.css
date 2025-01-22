@@ -9,9 +9,26 @@ body {
   font-weight: bold;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+}
+
 h2 {
   font-weight: bold;
   font-size: 32px;
+}
+
+tR {
+  font-family: "Raleway", serif;
+  font-weight: reguler;
+  font-size: 20px;
+}
+
+tQ {
+  font-family: "Quicksand", serif;
+  font-weight: reguler;
+  font-size: 20px;
 }
 
 .container {
@@ -143,6 +160,19 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+
+.banner-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+}
+
+.banner-content > :first-child {
+  margin-bottom: 25px;
+}
+.banner-content > :last-child {
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
