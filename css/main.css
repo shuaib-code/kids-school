@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+.navlink {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Text utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* Flexbox utilities */
+.flex {
+  display: flex;
+}
+.flex-nav-gap {
+  gap: 32px;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-stretch {
+  align-items: stretch;
+}
+.align-baseline {
+  align-items: baseline;
+}
+
+/* Grid utilities */
+.grid {
+  display: grid;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-cols-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-gap-1 {
+  gap: 4px;
+}
+.grid-gap-2 {
+  gap: 8px;
+}
+.grid-gap-3 {
+  gap: 12px;
+}
+.grid-gap-4 {
+  gap: 16px;
+}
+.grid-gap-5 {
+  gap: 20px;
+}
+
+.contact {
+  background-color: #FEA301;
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.enroll {
+  background-color: black;
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

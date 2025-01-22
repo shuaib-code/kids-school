@@ -1,0 +1,17 @@
+@import 'colors'
+
+@mixin btn($bg-color)
+    background-color: $bg-color
+    width: 200px
+    padding: 10px 0
+    text-align: center
+    border-radius: 12px
+    font-size: 20px
+    font-weight: 600
+    color: white
+
+.contact
+    @include btn($orange)
+
+.enroll
+    @include btn(black)
