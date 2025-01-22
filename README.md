@@ -6,40 +6,40 @@ This is a **static web page** designed for a kids' school with a **clean, vibran
 
 ### Key Features:
 
-- **Bright and Playful Design**: Using primary and secondary colors to create an engaging and friendly atmosphere for children.
-- **SASS for Styling**: Leveraging **SASS** for efficient and maintainable styles, with variables and mixins to keep things organized and reusable.
-- **Responsive Layout**: Adapts seamlessly to both mobile and desktop views.
-- **Typography and Imagery**: Child-friendly fonts and illustrations to enhance the learning experience.
+- 🟦 **Bright and Playful Design**: Using primary and secondary colors to create an engaging and friendly atmosphere for children.
+- 🎨 **SASS for Styling**: Leveraging **SASS** for efficient and maintainable styles, with variables and mixins to keep things organized and reusable.
+- 📱 **Responsive Layout**: Adapts seamlessly to both mobile and desktop views.
+- 🔠 **Typography and Imagery**: Child-friendly fonts and illustrations to enhance the learning experience.
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/shuaib-code/kids-school
+   ![Clone Icon](https://img.icons8.com/ios/50/000000/github.png) git clone https://github.com/shuaib-code/kids-school
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-   cd kids-school
+    cd kids-school
 ```
 
 3. Open `index.html` in your browser.
 
 ## Technology Stack
 
-- **HTML**: Structure of the page
-- **SASS**: For styling the UI
-- **Responsive Design**: Ensures compatibility with mobile and desktop devices
+- 🔠 **HTML**: Structure of the page
+- 🎨 **SASS**: For styling the UI
+- 📱 **Responsive Design**: Ensures compatibility with mobile and desktop devices
 
 ## Folder Structure
 
-- `assets/`: Contains media like the logo, image etc.
-- `index.html`: Main HTML file
-- `css/`: Contains SASS files (`main.css`, `main.css.map`)
-- `sass/`: Contains SASS files (`main.sass`, `mixin.sass`, `...`, `colors.sass`)
-- `README.md`: This file
+- 🗂️ `assets/`: Contains media like the logo, image etc.
+- 📝 `index.html`: Main HTML file
+- 🎨 `css/`: Contains SASS files (main.css, main.css.map)
+- 🧰 `sass/`: Contains SASS files (main.sass, mixin.sass, ..., colors.sass)
+- 📄 `README.md`: This file
 
 ## License
 
