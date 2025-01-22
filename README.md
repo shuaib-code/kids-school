@@ -13,6 +13,8 @@ This is a **static web page** designed for a kids' school with a **clean, vibran
 
 ## Installation
 
+![Clone Icon](https://img.icons8.com/ios/50/000000/github.png)
+
 1. Clone the repository:
 
 ```bash
