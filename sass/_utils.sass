@@ -2,26 +2,12 @@
 .text-center
     text-align: center
 
-.text-right
-    text-align: right
-
 .text-left
     text-align: left
 
 /* Flexbox utilities */
 .flex
     display: flex
-
-    &-nav-gap
-        gap: 32px
-    &-column
-        flex-direction: column
-    &-row
-        flex-direction: row
-    &-wrap
-        flex-wrap: wrap
-    &-nowrap
-        flex-wrap: nowrap
 
 .justify
     &-center
@@ -36,12 +22,6 @@
     &-between
         justify-content: space-between
 
-    &-around
-        justify-content: space-around
-
-    &-evenly
-        justify-content: space-evenly
-
 .align
     &-center
         align-items: center
@@ -51,43 +31,3 @@
 
     &-end
         align-items: flex-end
-
-    &-stretch
-        align-items: stretch
-
-    &-baseline
-        align-items: baseline
-
-/* Grid utilities */
-.grid
-    display: grid
-
-    &-cols-2
-        grid-template-columns: repeat(2, 1fr)
-
-    &-cols-3
-        grid-template-columns: repeat(3, 1fr)
-
-    &-cols-4
-        grid-template-columns: repeat(4, 1fr)
-
-    &-cols-5
-        grid-template-columns: repeat(5, 1fr)
-
-    &-cols-6
-        grid-template-columns: repeat(6, 1fr)
-
-    &-gap-1
-        gap: 4px
-
-    &-gap-2
-        gap: 8px
-
-    &-gap-3
-        gap: 12px
-
-    &-gap-4
-        gap: 16px
-
-    &-gap-5
-        gap: 20px
