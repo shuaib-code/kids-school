@@ -30,6 +30,11 @@
     h2
         color: $text-color
 
+    img
+        transition: transform 0.3s ease
+        &:hover
+            transform: scale(1.1)
+
 .kinder-card
     @include card($kinder-border, $sky)
 

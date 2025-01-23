@@ -84,6 +84,15 @@ body {
   margin-top: 60px;
 }
 
+.img {
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+
 /* Text utilities */
 .text-center {
   text-align: center;
@@ -256,6 +265,12 @@ body {
 .kinder-card h2 {
   color: #01ACFD;
 }
+.kinder-card img {
+  transition: transform 0.3s ease;
+}
+.kinder-card img:hover {
+  transform: scale(1.1);
+}
 
 .elementary-card {
   box-sizing: border-box;
@@ -271,6 +286,12 @@ body {
 .elementary-card h2 {
   color: #FEA301;
 }
+.elementary-card img {
+  transition: transform 0.3s ease;
+}
+.elementary-card img:hover {
+  transform: scale(1.1);
+}
 
 .middle-card {
   box-sizing: border-box;
@@ -285,6 +306,12 @@ body {
 }
 .middle-card h2 {
   color: #8700FF;
+}
+.middle-card img {
+  transition: transform 0.3s ease;
+}
+.middle-card img:hover {
+  transform: scale(1.1);
 }
 
 .banner-grid {
@@ -459,6 +486,12 @@ body {
 .kinder-card h2 {
   color: #01ACFD;
 }
+.kinder-card img {
+  transition: transform 0.3s ease;
+}
+.kinder-card img:hover {
+  transform: scale(1.1);
+}
 
 .elementary-card {
   box-sizing: border-box;
@@ -474,6 +507,12 @@ body {
 .elementary-card h2 {
   color: #FEA301;
 }
+.elementary-card img {
+  transition: transform 0.3s ease;
+}
+.elementary-card img:hover {
+  transform: scale(1.1);
+}
 
 .middle-card {
   box-sizing: border-box;
@@ -488,6 +527,12 @@ body {
 }
 .middle-card h2 {
   color: #8700FF;
+}
+.middle-card img {
+  transition: transform 0.3s ease;
+}
+.middle-card img:hover {
+  transform: scale(1.1);
 }
 
 body {
@@ -545,6 +590,7 @@ h3 {
 .left-story-card {
   background: #F7F7F7;
   border-radius: 16px;
+  overflow: hidden;
 }
 .left-story-card div {
   padding: 32px;
@@ -558,6 +604,9 @@ h3 {
   border-top-right-radius: 16px;
   object-fit: cover;
   display: block;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 .left-story-card h2 {
   font-size: 24px;
@@ -596,6 +645,9 @@ h3 {
   border-radius: 16px;
 }
 
+.right-story-card {
+  overflow: hidden;
+}
 .right-story-card div {
   position: relative;
   padding: 0px 32px;
