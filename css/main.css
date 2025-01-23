@@ -190,6 +190,7 @@ main {
   background-repeat: repeat-2;
   background-position: right top;
   background-size: contain;
+  background-position-y: 20px;
 }
 
 /* for card background */
@@ -353,7 +354,7 @@ h3 {
 }
 .curriculum-card-container p {
   font-family: "Raleway", serif;
-  font-weight: medium;
+  font-weight: 400;
   font-size: 16px;
 }
 .curriculum-card-container img {
@@ -368,8 +369,8 @@ h3 {
   justify-content: center;
 }
 .arrow img {
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
 }
 .arrow img:first-child {
   transform: rotate(180deg);
