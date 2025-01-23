@@ -15,3 +15,26 @@
 
 .enroll
     @include btn(black)
+
+@mixin card($border-color, $text-color)
+    box-sizing: border-box
+    padding: 46px 24px
+    border: 2px solid $border-color
+    border-radius: 18px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    box-shadow: inset 0px 0px 28.3px 0.95px $black-05
+    background: linear-gradient(180deg, $border-color, $white 40%), $white
+
+    h2
+        color: $text-color
+
+.kinder-card
+    @include card($kinder-border, $sky)
+
+.elementary-card
+    @include card($elementary-border, $orange)
+
+.middle-card
+    @include card($middle-border, $indigo-2)
