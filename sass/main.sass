@@ -1,10 +1,82 @@
 @use "typo"
 @use "colors"
 @use "spacing"
-@use "utils"
-@use "base"
 @use "mixin"
-@use "banner"
 @use "curriculum"
 @use "story"
 @use "footer"
+
+body
+    margin: 0
+    background-color: colors.$ghost
+    font-family: typo.$quicksand
+    font-optical-sizing: auto
+
+    h1
+        font-weight: bold
+        font-size: 56px
+    h2
+        font-weight: bold
+        font-size: 46px
+    h3
+        font-weight: bold
+        font-size: 32px
+
+    .text-center
+        text-align: center
+    .Quciksand-reguler
+        font-weight: reguler
+        font-size: 20px
+    .lh0
+        line-height: 0
+
+.background-image
+    background-image: url("../assets/bg.png")
+    background-repeat: repeat-y
+    background-position: top
+    background-size: auto
+
+.navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &> :first-child
+        display: flex
+        align-items: center
+        img
+            width: 62px
+            height: 62px
+
+    .header-navlink
+        display: flex
+        font-size: 20px
+        font-weight: bold
+        gap: 32px
+
+        &> :first-child
+            color: colors.$orange
+        &> :nth-child(2)
+            color: colors.$sky
+        &> :nth-child(3)
+            color: colors.$cyan
+        &> :last-child
+            color: colors.$indigo
+
+.banner
+    display: grid
+    grid-template-columns: 2fr 1fr
+    justify-content: flex-end
+    align-items: center
+    gap: 50px
+
+    .banner-content
+        & > :first-child
+            margin-bottom: 25px
+        & > :last-child
+            margin-top: 25px
+        h1
+            & > :first-child
+                color: colors.$orange
+            & > :last-child
+                color: colors.$sky
