@@ -34,8 +34,8 @@
   padding: 10px 0;
   text-align: center;
   border-radius: 12px;
-  font-size: 20px;
   font-weight: 600;
+  font-size: 20px;
   color: white;
 }
 
@@ -45,8 +45,8 @@
   padding: 10px 0;
   text-align: center;
   border-radius: 12px;
-  font-size: 20px;
   font-weight: 600;
+  font-size: 20px;
   color: white;
 }
 
@@ -120,26 +120,19 @@
   gap: 28px;
 }
 .curriculum-card-container h1 {
-  font-weight: bold;
-  font-size: 24px;
-  font-family: "Quicksand", serif;
+  font: bold 24px "Quicksand", serif;
   padding: 0;
 }
 .curriculum-card-container h2 {
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "Quicksand", serif;
+  font: bold 16px "Quicksand", serif;
 }
 .curriculum-card-container p {
-  font-family: "Raleway", serif;
-  font-weight: 400;
-  font-size: 16px;
+  font: 400 16px "Raleway", serif;
 }
 .curriculum-card-container img {
   width: 136px;
   height: 136px;
-  margin: auto;
-  margin-bottom: 10px;
+  margin: auto auto 10px;
 }
 
 .arrow {
@@ -190,13 +183,10 @@
   z-index: -1;
 }
 .story .story-card-container .left-story-card h2 {
-  font-size: 24px;
-  font-weight: bold;
+  font: bold 24px;
 }
 .story .story-card-container .left-story-card p {
-  font-family: "Raleway", serif;
-  font-weight: medium;
-  font-size: 16px;
+  font: medium 16px "Raleway", serif;
 }
 .story .story-card-container .left-story-card .date {
   position: absolute;
@@ -220,14 +210,10 @@
   display: block;
 }
 .story .story-card-container .right-story-container h4 {
-  font-family: "Quicksand", serif;
-  font-weight: bold;
-  font-size: 16px;
+  font: bold 16px "Quicksand", serif;
 }
 .story .story-card-container .right-story-container p {
-  font-family: "Raleway", serif;
-  font-weight: medium;
-  font-size: 16px;
+  font: medium 16px "Raleway", serif;
   color: white;
 }
 .story .story-card-container .right-story-container div {
@@ -263,17 +249,14 @@ footer section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding: 100px 0 120px;
 }
 
 .footer-left h2 {
-  font-size: 42px;
-  font-weight: bold;
+  font: bold 42px;
 }
 .footer-left p {
-  font-size: 20px;
-  font-weight: reguler;
+  font: reguler 20px;
 }
 
 .footer-logo {
@@ -295,12 +278,10 @@ footer section {
   justify-items: start;
 }
 .footer-right h2 {
-  font-size: 24px;
-  font-weight: bold;
+  font: bold 24px;
 }
 .footer-right p {
-  font-size: 20px;
-  font-weight: medium;
+  font: medium 20px;
 }
 
 .navbar {
@@ -316,22 +297,23 @@ footer section {
   width: 62px;
   height: 62px;
 }
-.navbar .header-navlink {
+
+.header-navlink {
   display: flex;
+  gap: 32px;
   font-size: 20px;
   font-weight: bold;
-  gap: 32px;
 }
-.navbar .header-navlink > :first-child {
+.header-navlink > :first-child {
   color: #FEA301;
 }
-.navbar .header-navlink > :nth-child(2) {
+.header-navlink > :nth-child(2) {
   color: #01ACFD;
 }
-.navbar .header-navlink > :nth-child(3) {
+.header-navlink > :nth-child(3) {
   color: #05D4DF;
 }
-.navbar .header-navlink > :last-child {
+.header-navlink > :last-child {
   color: #5D58EF;
 }
 
@@ -365,10 +347,7 @@ body .lh0 {
 }
 
 .background-image {
-  background-image: url("../assets/bg.png");
-  background-repeat: repeat-y;
-  background-position: top;
-  background-size: auto;
+  background: url("../assets/bg.png") repeat-y top/auto;
 }
 
 .banner {
