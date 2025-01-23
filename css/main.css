@@ -200,12 +200,11 @@ body {
   margin: 0;
 }
 
-main {
+.background-image {
   background-image: url("../assets/bg.png");
-  background-repeat: repeat-2;
-  background-position: right top;
-  background-size: contain;
-  background-position-y: 20px;
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: auto;
 }
 
 /* for card background */
@@ -578,7 +577,8 @@ h3 {
 
 .story {
   box-sizing: border-box;
-  background: linear-gradient(0deg, rgba(254, 161, 1, 0.3), #F7F7F7) #F7F7F7;
+  background: linear-gradient(0deg, rgba(254, 161, 1, 0.3), rgba(247, 247, 247, 0.38));
+  background-blend-mode: overlay;
 }
 
 .story-card-container {
@@ -675,6 +675,72 @@ h3 {
   background-color: #3CD8E8;
   border-radius: 32px;
   padding: 10px;
+}
+
+/* for card background */
+body {
+  background-color: #F7F7F7;
+}
+
+.text-sky {
+  color: #01ACFD;
+}
+
+.text-orange {
+  color: #FEA301;
+}
+
+.text-cyan {
+  color: #05D4DF;
+}
+
+.text-indigo {
+  color: #5D58EF;
+}
+
+footer {
+  background: #01ACFD;
+  color: #FFFFFF;
+}
+footer section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.footer-left h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.footer-left p {
+  font-size: 20px;
+  font-weight: reguler;
+}
+
+.footer-logo {
+  align-items: center;
+  gap: 16px;
+}
+.footer-logo img {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 16px 4px;
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+}
+.footer-right h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-right p {
+  font-size: 20px;
+  font-weight: medium;
 }
 
 /*# sourceMappingURL=main.css.map */
