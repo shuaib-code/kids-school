@@ -1,0 +1,28 @@
+@use 'colors'
+
+.navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &> :first-child
+        display: flex
+        align-items: center
+        img
+            width: 62px
+            height: 62px
+
+    .header-navlink
+        display: flex
+        font-size: 20px
+        font-weight: bold
+        gap: 32px
+
+        &> :first-child
+            color: colors.$orange
+        &> :nth-child(2)
+            color: colors.$sky
+        &> :nth-child(3)
+            color: colors.$cyan
+        &> :last-child
+            color: colors.$indigo
