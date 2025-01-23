@@ -19,16 +19,32 @@ h2 {
   font-size: 32px;
 }
 
-tR {
+.tR {
   font-family: "Raleway", serif;
   font-weight: reguler;
   font-size: 20px;
 }
 
-tQ {
+.text-reguler-Quciksand {
   font-family: "Quicksand", serif;
   font-weight: reguler;
   font-size: 20px;
+}
+
+.text-sky {
+  color: #01ACFD;
+}
+
+.text-orange {
+  color: #FEA301;
+}
+
+.text-cyan {
+  color: #05D4DF;
+}
+
+.text-indigo {
+  color: #5D58EF;
 }
 
 .container {
@@ -138,6 +154,22 @@ tQ {
 }
 .grid-gap-5 {
   gap: 20px;
+}
+
+.text-sky {
+  color: #01ACFD;
+}
+
+.text-orange {
+  color: #FEA301;
+}
+
+.text-cyan {
+  color: #05D4DF;
+}
+
+.text-indigo {
+  color: #5D58EF;
 }
 
 .contact {
