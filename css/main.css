@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-/* for card background */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -142,27 +139,6 @@ body {
   background-size: auto;
 }
 
-/* for card background */
-body {
-  background-color: #F7F7F7;
-}
-
-.text-sky {
-  color: #01ACFD;
-}
-
-.text-orange {
-  color: #FEA301;
-}
-
-.text-cyan {
-  color: #05D4DF;
-}
-
-.text-indigo {
-  color: #5D58EF;
-}
-
 .contact {
   background-color: #FEA301;
   width: 200px;
@@ -261,48 +237,6 @@ body {
   margin-top: 25px;
 }
 
-body {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-}
-
-.navlink {
-  font-size: 20px;
-  font-weight: bold;
-  gap: 32px;
-}
-
-.lh0 {
-  line-height: 0;
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 56px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 46px;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 32px;
-}
-
-.tR {
-  font-family: "Raleway", serif;
-  font-weight: reguler;
-  font-size: 20px;
-}
-
-.text-reguler-Quciksand {
-  font-family: "Quicksand", serif;
-  font-weight: reguler;
-  font-size: 20px;
-}
-
 .curriculum-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -342,174 +276,6 @@ h3 {
 }
 .arrow img:first-child {
   transform: rotate(180deg);
-}
-
-body {
-  background-color: #F7F7F7;
-}
-
-.text-sky {
-  color: #01ACFD;
-}
-
-.text-orange {
-  color: #FEA301;
-}
-
-.text-cyan {
-  color: #05D4DF;
-}
-
-.text-indigo {
-  color: #5D58EF;
-}
-
-/* for card background */
-body {
-  background-color: #F7F7F7;
-}
-
-.text-sky {
-  color: #01ACFD;
-}
-
-.text-orange {
-  color: #FEA301;
-}
-
-.text-cyan {
-  color: #05D4DF;
-}
-
-.text-indigo {
-  color: #5D58EF;
-}
-
-.contact {
-  background-color: #FEA301;
-  width: 200px;
-  padding: 10px 0;
-  text-align: center;
-  border-radius: 12px;
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
-}
-
-.enroll {
-  background-color: black;
-  width: 200px;
-  padding: 10px 0;
-  text-align: center;
-  border-radius: 12px;
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
-}
-
-.kinder-card {
-  box-sizing: border-box;
-  padding: 46px 24px;
-  border: 2px solid #DEF5FF;
-  border-radius: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: inset 0px 0px 28.3px 0.95px rgba(0, 0, 0, 0.0509803922);
-  background: linear-gradient(180deg, #DEF5FF, #FFFFFF 40%), #FFFFFF;
-}
-.kinder-card h2 {
-  color: #01ACFD;
-}
-.kinder-card img {
-  transition: transform 0.3s ease;
-}
-.kinder-card img:hover {
-  transform: scale(1.1);
-}
-
-.elementary-card {
-  box-sizing: border-box;
-  padding: 46px 24px;
-  border: 2px solid #FFF4DC;
-  border-radius: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: inset 0px 0px 28.3px 0.95px rgba(0, 0, 0, 0.0509803922);
-  background: linear-gradient(180deg, #FFF4DC, #FFFFFF 40%), #FFFFFF;
-}
-.elementary-card h2 {
-  color: #FEA301;
-}
-.elementary-card img {
-  transition: transform 0.3s ease;
-}
-.elementary-card img:hover {
-  transform: scale(1.1);
-}
-
-.middle-card {
-  box-sizing: border-box;
-  padding: 46px 24px;
-  border: 2px solid #F2E8FF;
-  border-radius: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: inset 0px 0px 28.3px 0.95px rgba(0, 0, 0, 0.0509803922);
-  background: linear-gradient(180deg, #F2E8FF, #FFFFFF 40%), #FFFFFF;
-}
-.middle-card h2 {
-  color: #8700FF;
-}
-.middle-card img {
-  transition: transform 0.3s ease;
-}
-.middle-card img:hover {
-  transform: scale(1.1);
-}
-
-body {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-}
-
-.navlink {
-  font-size: 20px;
-  font-weight: bold;
-  gap: 32px;
-}
-
-.lh0 {
-  line-height: 0;
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 56px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 46px;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 32px;
-}
-
-.tR {
-  font-family: "Raleway", serif;
-  font-weight: reguler;
-  font-size: 20px;
-}
-
-.text-reguler-Quciksand {
-  font-family: "Quicksand", serif;
-  font-weight: reguler;
-  font-size: 20px;
 }
 
 .story {
@@ -612,27 +378,6 @@ h3 {
   background-color: #3CD8E8;
   border-radius: 32px;
   padding: 10px;
-}
-
-/* for card background */
-body {
-  background-color: #F7F7F7;
-}
-
-.text-sky {
-  color: #01ACFD;
-}
-
-.text-orange {
-  color: #FEA301;
-}
-
-.text-cyan {
-  color: #05D4DF;
-}
-
-.text-indigo {
-  color: #5D58EF;
 }
 
 footer {

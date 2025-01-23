@@ -1,4 +1,4 @@
-@import 'colors'
+@use 'colors'
 
 @mixin btn($bg-color)
     background-color: $bg-color
@@ -11,7 +11,7 @@
     color: white
 
 .contact
-    @include btn($orange)
+    @include btn(colors.$orange)
 
 .enroll
     @include btn(black)
@@ -24,8 +24,8 @@
     display: flex
     flex-direction: column
     justify-content: space-between
-    box-shadow: inset 0px 0px 28.3px 0.95px $black-05
-    background: linear-gradient(180deg, $border-color, $white 40%), $white
+    box-shadow: inset 0px 0px 28.3px 0.95px colors.$black-05
+    background: linear-gradient(180deg, $border-color, colors.$white 40%), colors.$white
 
     h2
         color: $text-color
@@ -36,13 +36,13 @@
             transform: scale(1.1)
 
 .kinder-card
-    @include card($kinder-border, $sky)
+    @include card(colors.$kinder-border, colors.$sky)
 
 .elementary-card
-    @include card($elementary-border, $orange)
+    @include card(colors.$elementary-border, colors.$orange)
 
 .middle-card
-    @include card($middle-border, $indigo-2)
+    @include card(colors.$middle-border, colors.$indigo-2)
 
 @mixin image-top-radius
     border-top-left-radius: 16px
