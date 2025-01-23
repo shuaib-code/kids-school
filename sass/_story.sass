@@ -1,0 +1,78 @@
+@import 'colors'
+@import 'mixin'
+@import 'typo'
+
+.story
+    box-sizing: border-box
+    background: linear-gradient(0deg,rgba(254, 161, 1, 0.3) , $ghost) $ghost
+
+.story-card-container
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    gap: 20px
+
+.left-story-card
+    background: $ghost
+    border-radius: 16px
+
+    div
+        padding: 32px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        position: relative
+    img
+        @include image-top-radius
+    h2
+        font-size: 24px
+        font-weight: bold
+    p
+        font-family: $raleway
+        font-weight: medium
+        font-size: 16px
+
+.right-story-container
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    gap: 20px
+    img
+        @include image-top-radius
+    h4
+        font-family: $quicksand
+        font-weight: bold
+        font-size: 16px
+    p
+        font-family: $raleway
+        font-weight: medium
+        font-size: 16px
+        color: white
+    div
+        background: $white
+        border-radius: 16px
+
+.right-story-card
+    div
+        position: relative
+        padding: 0px 32px
+        padding-top: 10px
+        display: flex
+        justify-content: center
+    p
+        position: absolute
+        color: $white
+        top: -20px
+        left: 36%
+        transform: translate(-50%, -50%)
+        background-color: #95B226
+        border-radius: 32px
+        padding: 10px
+
+.date
+    position: absolute
+    color: white
+    top: -7%
+    left: 20%
+    transform: translate(-50%, -50%)
+    background-color: #3CD8E8
+    border-radius: 32px
+    padding: 10px
